@@ -1,5 +1,6 @@
 
 
+import CV from "./CV";
 import { useState } from 'react'
 
 const projects = [
@@ -298,7 +299,7 @@ function App() {
               title="Resume / CV"
               description="My educational background, experience, and technical skills."
             />
-
+            <CV />
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl border border-white/10 bg-[#0c1325] p-7">
                 <h3 className="text-xl font-semibold text-white">Education</h3>
@@ -330,13 +331,8 @@ function App() {
                 </p>
               </div>
             </div>
-
             <div className="mt-8 rounded-2xl border border-blue-400/20 bg-blue-400/5 p-6">
               <h3 className="font-semibold text-white">Download my CV</h3>
-              <p className="mt-2 text-sm leading-6 text-slate-400">
-                Add your actual CV PDF to the public folder and name it cv.pdf
-                to activate this download.
-              </p>
               <a
                 href="/cv.pdf"
                 download
