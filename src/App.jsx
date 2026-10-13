@@ -333,13 +333,6 @@ function App() {
             </div>
             <div className="mt-8 rounded-2xl border border-blue-400/20 bg-blue-400/5 p-6">
               <h3 className="font-semibold text-white">Download my CV</h3>
-              <a
-                href="/cv.pdf"
-                download
-                className="mt-5 inline-flex rounded-xl bg-blue-500 px-5 py-3 font-semibold text-white transition hover:bg-blue-400"
-              >
-                Download CV ↓
-              </a>
             </div>
           </div>
         </section>
