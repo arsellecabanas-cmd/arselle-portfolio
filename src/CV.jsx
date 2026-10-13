@@ -44,11 +44,8 @@ export default function CV() {
       <div className="mx-auto max-w-5xl">
         {/* Page Heading */}
         <div className="mb-10 text-center">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
-            My Portfolio
-          </p>
-          <h1 className="text-4xl font-bold sm:text-5xl">
-            Curriculum Vitae
+          <h1 className="text-4xl font-bold sm:text-5xl text-blue-400">
+           My Portfolio
           </h1>
           <p className="mt-3 text-slate-400">
             My background, skills, and projects
@@ -79,7 +76,7 @@ export default function CV() {
                       />
                       <circle cx="12" cy="13" r="3" />
                     </svg>
-                   <img src="/pfp.jfif"
+                   <img src="pfp.jfif"
                     alt="Arselle E. Cabañas"
                  className="h-40 w-40 rounded-2xl object-cover"/>
                   </div>
@@ -118,22 +115,22 @@ export default function CV() {
                   <ContactItem
                     icon="✉"
                     label="Email"
-                    value="[Your email address]"
+                    value="arselleeguna97@gmail.com"
                   />
                   <ContactItem
                     icon="☎"
                     label="Phone"
-                    value="[Your phone number]"
+                    value="09919185992"
                   />
                   <ContactItem
                     icon="⌖"
                     label="Location"
-                    value="[City, Province]"
+                    value="Trece Martires, Cavite"
                   />
                   <ContactItem
                     icon="⌘"
                     label="GitHub"
-                    value="[Your GitHub URL]"
+                    value="https://github.com/arsellecabanas-cmd/"
                   />
                 </div>
               </div>
@@ -146,10 +143,10 @@ export default function CV() {
                   Bachelor of Science in Information Technology
                 </h3>
                 <p className="mt-2 text-sm text-blue-300">
-                  [Your School Name]
+                  Cavite State University-Tanza Campus
                 </p>
                 <p className="mt-1 text-sm text-slate-400">
-                  [Year Level] · Expected graduation: [Year]
+                  3rd · Expected graduation: 2028
                 </p>
               </div>
 
