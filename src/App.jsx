@@ -331,9 +331,6 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="mt-8 rounded-2xl border border-blue-400/20 bg-blue-400/5 p-6">
-              <h3 className="font-semibold text-white">Download my CV</h3>
-            </div>
           </div>
         </section>
 
