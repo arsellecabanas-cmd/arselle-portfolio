@@ -76,7 +76,7 @@ export default function CV() {
                       />
                       <circle cx="12" cy="13" r="3" />
                     </svg>
-                   <img src="pfp.jfif"
+                   <img src="profile.jpg"
                     alt="Arselle E. Cabañas"
                  className="h-40 w-40 rounded-2xl object-cover"/>
                   </div>
